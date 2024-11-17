@@ -1,0 +1,359 @@
+.hero {
+  width: 100%;
+  height: calc(560 / 12.8 * 1vw);
+  background-image: url("img/Image PlaceHolder.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.orbitians > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerNft {
+  width: 100%;
+  height: auto;
+  padding: calc(40 / 12.8 * 1vw) calc(115 / 12.8 * 1vw);
+  background-color: #2b2b2b;
+}
+
+.orbitiansTitle {
+  font-size: calc(51 / 12.8 * 1vw);
+  font-weight: 600;
+  line-height: calc(56 / 12.8 * 1vw);
+  color: white;
+  margin-bottom: calc(10 / 12.8 * 1vw);
+}
+
+.orbitiansTitles > p {
+  font-size: calc(22 / 12.8 * 1vw);
+  font-weight: 400;
+  line-height: calc(35 / 12.8 * 1vw);
+  color: #858584;
+}
+
+.orbitiansTitles > p:nth-child(4) {
+  margin-top: calc(30 / 12.8 * 1vw);
+}
+
+.orbitiansTitles > div:last-child > img {
+  width: calc(24 / 12.8 * 1vw);
+  height: calc(24 / 12.8 * 1vw);
+}
+
+.orbitiansTitles > div:last-child {
+  display: flex;
+  gap: calc(12 / 12.8 * 1vw);
+  align-items: center;
+  margin-top: calc(10 / 12.8 * 1vw);
+}
+
+.orbitiansTitles > div:last-child > p {
+  font-size: calc(22 / 12.8 * 1vw);
+  font-weight: 600;
+  line-height: calc(31 / 12.8 * 1vw);
+  color: white;
+}
+
+.watchNft {
+  width: calc(295 / 12.8 * 1vw);
+  height: calc(234 / 12.8 * 1vw);
+  background-color: #3b3b3b;
+  border: none;
+  border-radius: calc(20 / 12.8 * 1vw);
+  padding: calc(30 / 12.8 * 1vw);
+}
+
+.watchNft > p {
+  font-size: calc(12 / 12.8 * 1vw);
+  font-weight: 400;
+  line-height: calc(13 / 12.8 * 1vw);
+  color: white;
+}
+
+.watchNft > div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: calc(10 / 12.8 * 1vw) 0 calc(0 / 12.8 * 1vw) 0;
+}
+
+.namesNft > span {
+  display: flex;
+  font-size: calc(12 / 12.8 * 1vw);
+  font-weight: 700;
+  line-height: calc(46 / 12.8 * 1vw);
+  color: white;
+}
+
+.namesNft {
+  display: flex;
+  gap: calc(20 / 12.8 * 1vw);
+}
+
+.watchNft > div > span {
+  font-size: calc(38 / 12.8 * 1vw);
+  font-weight: 700;
+  color: white;
+  line-height: calc(46 / 12.8 * 1vw);
+}
+
+.watchNft > button {
+  width: calc(235 / 12.8 * 1vw);
+  height: calc(60 / 12.8 * 1vw);
+  background-color: #a259ff;
+  color: white;
+  border: none;
+  border-radius: calc(20 / 12.8 * 1vw);
+  font-size: calc(16 / 12.8 * 1vw);
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.watchNft > button:hover {
+  border: calc(2 / 12.8 * 1vw) solid #a259ff;
+  background-color: #3b3b3b;
+}
+
+.orbitiansInfos {
+  width: calc(605 / 12.8 * 1vw);
+  display: flex;
+  flex-direction: column;
+  gap: calc(30 / 12.8 * 1vw);
+}
+
+.orbitiansInfo {
+  font-size: calc(22 / 12.8 * 1vw);
+  font-weight: 700;
+  line-height: calc(35 / 12.8 * 1vw);
+  color: #858584;
+}
+
+.orbitiansInfos1 {
+  display: flex;
+  flex-direction: column;
+  gap: calc(10 / 12.8 * 1vw);
+}
+
+.orbitiansInfos1 > p:nth-child(2) {
+  color: white;
+  font-weight: 400;
+  font-size: calc(22 / 12.8 * 1vw);
+  line-height: calc(35 / 12.8 * 1vw);
+}
+
+.orbitiansInfos2 {
+  display: flex;
+  flex-direction: column;
+  gap: calc(10 / 12.8 * 1vw);
+}
+
+.orbitiansInfos2 > div {
+  display: flex;
+  gap: calc(10 / 12.8 * 1vw);
+  align-items: center;
+}
+
+.orbitiansInfos2 > div > p {
+  color: white;
+  font-size: calc(22 / 12.8 * 1vw);
+  line-height: calc(35 / 12.8 * 1vw);
+}
+
+.orbitiansInfos2 > div > img {
+  width: calc(32 / 12.8 * 1vw);
+  height: calc(32 / 12.8 * 1vw);
+}
+
+.orbitiansInfos3 {
+  display: flex;
+  flex-direction: column;
+  gap: calc(10 / 12.8 * 1vw);
+}
+
+.orbitiansInfos3 > div {
+  display: flex;
+  gap: calc(20 / 12.8 * 1vw);
+}
+
+.orbitiansInfos3 > div > button {
+  width: max-content;
+  padding: calc(12 / 12.8 * 1vw) calc(30 / 12.8 * 1vw);
+  border-radius: calc(20 / 12.8 * 1vw);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b3b3b;
+}
+
+.orbitiansInfos3 > div > button:hover {
+  border: calc(1 / 12.8 * 1vw) solid white;
+  padding: calc(11 / 12.8 * 1vw) calc(29 / 12.8 * 1vw);
+}
+
+.orbitiansInfos3 > div > button:hover .orbitiansInfos3 > div {
+  gap: calc(30 / 12.8 * 1vw);
+}
+
+.orbitiansInfos3 > div > button > a {
+  color: white;
+  text-transform: uppercase;
+  font-size: calc(16 / 12.8 * 1vw);
+  line-height: calc(22 / 12.8 * 1vw);
+}
+
+.watchNftNone {
+  display: none;
+}
+
+@media only screen and (max-width: 834px) {
+  .orbitiansInfos3 > div {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .watchNftShow {
+    display: none;
+  }
+
+  .watchNftNone {
+    display: block;
+    margin-top: calc(20 / 12.8 * 1vw);
+  }
+
+  .container {
+    padding: calc(30 / 3.75 * 1vw);
+  }
+
+  .orbitiansTitle {
+    font-size: calc(28 / 3.75 * 1vw);
+    line-height: calc(39 / 3.75 * 1vw);
+  }
+
+  .orbitiansTitles {
+    width: 100%;
+    height: auto;
+    margin-bottom: calc(10 / 3.75 * 1vw);
+  }
+
+  .orbitiansTitles > p {
+    font-size: calc(16 / 3.75 * 1vw);
+    font-weight: 400;
+    line-height: calc(22 / 3.75 * 1vw);
+    color: #858584;
+  }
+
+  .watchNft {
+    height: auto;
+    width: 100%;
+    padding: calc(30 / 3.75 * 1vw);
+    border-radius: calc(20 / 3.75 * 1vw);
+    margin: calc(20 / 3.75 * 1vw) 0;
+  }
+
+  .watchNft > p {
+    font-size: calc(12 / 3.75 * 1vw);
+    line-height: calc(13 / 3.75 * 1vw);
+  }
+
+  .watchNft > div {
+    margin: calc(10 / 3.75 * 1vw) 0 calc(30 / 3.75 * 1vw) 0;
+  }
+
+  .watchNft > div > span {
+    font-size: calc(38 / 3.75 * 1vw);
+    line-height: calc(46 / 3.75 * 1vw);
+  }
+
+  .namesNft {
+    gap: calc(20 / 3.75 * 1vw);
+  }
+
+  .namesNft > span {
+    font-size: calc(12 / 3.75 * 1vw);
+    line-height: calc(26 / 3.75 * 1vw);
+  }
+
+  .watchNft > button {
+    padding: calc(19 / 3.75 * 1vw) 0;
+    width: 100%;
+    height: calc(60 / 3.75 * 1vw);
+    background-color: #a259ff;
+    color: white;
+    border: none;
+    border-radius: calc(20 / 3.75 * 1vw);
+    font-size: calc(16 / 3.75 * 1vw);
+  }
+
+  .orbitiansTitles > div:last-child > img {
+    width: calc(24 / 3.75 * 1vw);
+    height: calc(24 / 3.75 * 1vw);
+  }
+
+  .orbitiansTitles > div:last-child {
+    gap: calc(12 / 3.75 * 1vw);
+    margin-top: calc(10 / 3.75 * 1vw);
+  }
+
+  .orbitiansTitles > div:last-child > p {
+    font-size: calc(16 / 3.75 * 1vw);
+    line-height: calc(22 / 3.75 * 1vw);
+  }
+
+  .orbitiansInfos {
+    width: 100%;
+    gap: calc(20 / 3.75 * 1vw);
+  }
+
+  .orbitiansInfo {
+    font-size: calc(16 / 3.75 * 1vw);
+    font-weight: 700;
+    line-height: calc(22 / 3.75 * 1vw);
+    color: #858584;
+    margin-bottom: calc(10 / 3.75 * 1vw);
+  }
+
+  .orbitiansInfos1 > p:last-child {
+    font-size: calc(16 / 3.75 * 1vw);
+    line-height: calc(22 / 3.75 * 1vw);
+  }
+
+  .orbitiansInfos2 > div {
+    gap: calc(10 / 3.75 * 1vw);
+  }
+
+  .orbitiansInfos2 > div > img {
+    width: calc(24 / 3.75 * 1vw);
+    height: calc(24 / 3.75 * 1vw);
+  }
+
+  .orbitiansInfos2 > div > p {
+    font-size: calc(16 / 3.75 * 1vw);
+    line-height: calc(22 / 3.75 * 1vw);
+  }
+
+  .orbitiansInfos3 > div {
+    flex-direction: column;
+    justify-content: start;
+    gap: calc(20 / 3.75 * 1vw);
+  }
+
+  .orbitiansInfos3 > div > button {
+    width: max-content;
+    padding: calc(12 / 3.75 * 1vw) calc(30 / 3.75 * 1vw);
+    border-radius: calc(20 / 3.75 * 1vw);
+  }
+
+  .orbitiansInfos3 > div > button > a {
+    display: inline;
+    font-size: calc(16 / 3.75 * 1vw);
+    line-height: calc(22 / 3.75 * 1vw);
+  }
+
+  .hero {
+    height: calc(320 / 3.75 * 1vw);
+  }
+}

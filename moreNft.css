@@ -1,0 +1,286 @@
+.moreNft {
+    margin-top: calc(80/12.8*1vw);
+}
+
+.moreNft > div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.moreNftTitle {
+font-size: calc(38/12.8*1vw);
+font-weight: 600;
+line-height: calc(46/12.8*1vw);
+color: white;
+}
+
+.moreNftBtn {
+    width: calc(268/12.8*1vw);
+    height: calc(60/12.8*1vw);
+    border: calc(2/12.8*1vw) solid #A259FF;
+    border-radius: calc(20/12.8*1vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+
+.moreNftBtn > a {
+    display: flex;
+    gap: calc(12/12.8*1vw);
+    padding: calc(15/12.8*1vw);
+
+}
+
+
+.moreNftBtn >a>img {
+    width: calc(20/12.8*1vw);
+    height: calc(20/12.8*1vw);
+}
+
+.moreNftBtn >a> p {
+    color: white;
+font-size: calc(16/12.8*1vw);
+font-weight: 600;
+line-height: calc(22/12.8*1vw);
+}
+
+.wrapperMoreNft {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: calc(60/12.8*1vw);
+    row-gap: calc(60/12.8*1vw);
+}
+
+.moreCard {
+    width: calc(330/12.8*1vw);
+    height: calc(469/12.8*1vw);
+    border: none;
+    border-radius: calc(20/12.8*1vw);
+    background-color: #3B3B3B;
+}
+
+.moreCard > div:first-child {
+    width: 100%;
+    height: calc(295/12.8*1vw);
+}
+
+.moreCard > div:first-child > img {
+    width: 100%;
+    height: max-content;
+}
+
+.moreCard > div:last-child {
+    width: 100%;
+    height: calc(173/12.8*1vw);
+    padding: calc(20/12.8*1vw) calc(30/12.8*1vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.moreCardTitle {
+font-family: Work Sans,sans-serif;
+font-size: calc(22/12.8*1vw);
+font-weight: 600;
+line-height: calc(31/12.8*1vw);
+color: white;
+}
+
+.robotNft{
+    display: flex;
+    gap: calc(12/12.8*1vw);
+}
+
+.robotNft > img {
+    width: calc(24/12.8*1vw);
+    height: calc(24/12.8*1vw);
+}
+
+.robotNft> p {
+    color: white;
+font-size: calc(16/12.8*1vw);
+font-weight: 400;
+line-height: calc(22/12.8*1vw);
+margin: calc(5/12.8*1vw) 0 calc(27/12.8*1vw)  0;
+}
+
+.moreCard > div > p {
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(8/12.8*1vw);
+}
+
+.moreCard > div > p:nth-child(3) > span  {
+    color: #858584;
+font-family: "Space Mono",sans-serif;
+font-size: calc(12/12.8*1vw);
+font-weight: 400;
+line-height: calc(13/12.8*1vw);
+}
+
+.moreCard > div > p:last-child > span{
+    color: white;
+font-family: "Space Mono", sans-serif;
+font-size: calc(16/12.8*1vw);
+font-weight: 400;
+line-height: calc(22/12.8*1vw);
+}
+
+.moreNftBtnShow {
+    display: none;
+}
+
+@media only screen and (max-width:834px) {
+    .moreCard {
+        width: calc(330/8.34*1vw);
+        height: calc(469/8.34*1vw);
+        border-radius: calc(20/8.34*1vw);
+    }
+
+    .wrapperMoreNft > div:last-child {
+        display: none;
+    }
+
+    .wrapperMoreNft > div:nth-child(7), .wrapperMoreNft > div:nth-child(8), .wrapperMoreNft > div:nth-child(9) {
+        display: none;
+    } 
+
+    .moreCard > div:first-child {
+        height: calc(295/8.34*1vw);
+    }
+
+    .moreCard > div:last-child {
+        height: calc(173/8.34*1vw);
+        padding: calc(20/8.34*1vw) calc(30/8.34*1vw);
+    }
+
+    .moreCardTitle {
+        font-size: calc(22/8.34*1vw);
+        line-height: calc(31/8.34*1vw);
+        }
+        
+        .robotNft{
+            gap: calc(12/8.34*1vw);
+        }
+        
+        .robotNft > img {
+            width: calc(24/8.34*1vw);
+            height: calc(24/8.34*1vw);
+        }
+        
+        .robotNft> p {
+        font-size: calc(16/8.34*1vw);
+        line-height: calc(22/8.34*1vw);
+        margin: calc(5/8.34*1vw) 0 calc(27/8.34*1vw)  0;
+        }
+        
+        .moreCard > div > p {
+            margin-top: calc(8/8.34*1vw);
+        }
+        
+        .moreCard > div > p:nth-child(3) > span  {
+        font-size: calc(12/8.34*1vw);
+        line-height: calc(13/8.34*1vw);
+        }
+        
+        .moreCard > div > p:last-child > span{
+        font-size: calc(16/8.34*1vw);
+        line-height: calc(22/8.34*1vw);
+        }
+}
+
+@media only screen and (max-width:375px) {
+    .moreNftTitle {
+        font-size: calc(28/3.75*1vw);
+        line-height: calc(39/3.75*1vw);
+    }
+
+    .wrapperMoreNft {
+        margin-top: calc(30/3.75*1vw);
+        row-gap: calc(30/3.75*1vw);
+    }
+
+    .moreCard {
+        width: 100%;
+        height: calc(469/3.75*1vw);
+        border-radius: calc(20/3.75*1vw);
+    }
+
+    .moreCard > div:first-child {
+        height: calc(295/3.75*1vw);
+    }
+
+    .moreCard > div:first-child > img {
+        height: calc(295/3.75*1vw);
+    }
+
+    .moreCard > div:last-child {
+        height: calc(173/3.75*1vw);
+        padding: calc(20/3.75*1vw) calc(30/3.75*1vw);
+    }
+
+    .moreCardTitle {
+        font-size: calc(22/3.75*1vw);
+        line-height: calc(31/3.75*1vw);
+        }
+        
+        .robotNft{
+            gap: calc(12/3.75*1vw);
+        }
+        
+        .robotNft > img {
+            width: calc(24/3.75*1vw);
+            height: calc(24/3.75*1vw);
+        }
+        
+        .robotNft> p {
+        font-size: calc(16/3.75*1vw);
+        line-height: calc(22/3.75*1vw);
+        margin: calc(5/3.75*1vw) 0 calc(27/3.75*1vw)  0;
+        }
+        
+        .moreCard > div > p {
+            margin-top: calc(8/3.75*1vw);
+        }
+        
+        .moreCard > div > p:nth-child(3) > span  {
+        font-size: calc(12/3.75*1vw);
+        line-height: calc(13/3.75*1vw);
+        }
+        
+        .moreCard > div > p:last-child > span{
+        font-size: calc(16/3.75*1vw);
+        line-height: calc(22/3.75*1vw);
+        }
+
+        .moreNftBtn {
+            display: flex;
+            width: 100%;
+            height: calc(60/3.75*1vw);
+            gap: calc(10/3.75*1vw);
+            border-radius: calc(20/3.75*1vw);
+        }
+
+        .moreNftBtn > a {
+            display: flex;
+            gap: calc(15/3.75*1vw);
+        }
+
+        .moreNftBtn > a>img {
+            width: calc(24/3.75*1vw);
+            height: calc(24/3.75*1vw);
+        }
+
+        .moreNftBtn >a>p {
+            font-size: calc(16/3.75*1vw);
+            line-height: calc(22/3.75*1vw);
+        }
+
+        .moreNftBtnNone {
+            display: none;
+        }
+}

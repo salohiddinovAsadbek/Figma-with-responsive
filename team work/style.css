@@ -1,0 +1,17 @@
+:root {
+  --color: rgba(255, 255, 255, 1);
+  --fontSize: calc(22/12.8*1vw);
+  --fontWeight:500;
+  --lineHeight:calc(335/12.8*1vw);
+  --grayColor:#858584;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+font-family: "Work Sans",sans-serif;
+}
